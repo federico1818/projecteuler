@@ -1,9 +1,9 @@
-const LIMIT = 840000
-let sum = BigInt(0)
+const LIMIT = 840000n
+let sum = 0n
 
-for (let i = 1; i <= LIMIT; i++) {
-    if (i % 2 !== 0) {
-        sum += BigInt(i * i)
+for (let i = 1n; i <= LIMIT; i++) {
+    if (i % 2n !== 0n) {
+        sum += i ** 2n
     }
 }
 
