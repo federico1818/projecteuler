@@ -7,4 +7,4 @@ for (let i = 1n; i <= LIMIT; i++) {
     }
 }
 
-console.log(`The sum of all the odd squares under ${LIMIT} is ${sum}`)
+console.log(`Answer: ${sum}`)
